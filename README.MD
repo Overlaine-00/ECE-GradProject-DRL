@@ -10,7 +10,7 @@ Two prior researches are considered.
 
 
 ## Dataset
-[netflix-prize](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data?resource=download), [movielens-25m](https://grouplens.org/datasets/movielens/25m/), [Yahoo R2!](https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67)
+[netflix-prize](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data?resource=download), [movielens-25m](https://grouplens.org/datasets/movielens/25m/), [Yahoo R2!](https://webscope.sandbox.yahoo.com/catalog.php?datatype=i&did=67)  
 Place data at `data/{DATASET_NAME}`.
 
 
