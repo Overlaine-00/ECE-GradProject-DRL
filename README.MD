@@ -17,7 +17,7 @@ Place data at `data/{DATASET_NAME}`.
 ## Running
 See the source code for full descriptions.
 
-__Preprocessing Data__
+__Preprocessing Data__  
 Split train/test by 8:2, into smaller files.  
 Run `convert_dataset_format.py` at the top directory.
 ```
@@ -25,7 +25,7 @@ python convert_dataset_format.py
 ```
 
 
-__Embedding Data Generation__
+__Embedding Data Generation__  
 Run `generate_embedding_data.py` at the top directory.  
 ```
 # Generate all data
@@ -36,7 +36,7 @@ python generate_embedding_data.py --dataset movielens_25m
 ```
 
 
-__Training and Testing__
+__Training and Testing__  
 Run `main.py` at the top directory.  
 ```
 # train
