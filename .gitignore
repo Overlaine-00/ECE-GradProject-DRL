@@ -1,0 +1,8 @@
+**/__pycache__/
+
+data/embedding_data
+data/movielens_25m
+data/netflix_prize
+data/yahoo_r2
+
+trained_models/**
