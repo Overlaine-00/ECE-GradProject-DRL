@@ -18,7 +18,7 @@ Place data at `data/{DATASET_NAME}`.
 See the source code for full descriptions.
 
 __Preprocessing Data__
-Split train/test by 8:2, into smaller files.
+Split train/test by 8:2, into smaller files.  
 Run `convert_dataset_format.py` at the top directory.
 ```
 python convert_dataset_format.py
@@ -26,7 +26,7 @@ python convert_dataset_format.py
 
 
 __Embedding Data Generation__
-Run `generate_embedding_data.py` at the top directory.
+Run `generate_embedding_data.py` at the top directory.  
 ```
 # Generate all data
 python generate_embedding_data.py
@@ -37,7 +37,7 @@ python generate_embedding_data.py --dataset movielens_25m
 
 
 __Training and Testing__
-Run `main.py` at the top directory.
+Run `main.py` at the top directory.  
 ```
 # train
 python main.py --load_folder movielens_25m --save_folder movielens_25m_pg_f --target_model pg --reward_method feedback --dataset movielens_25m --filename train
@@ -50,8 +50,8 @@ python main.py --load_folder netflix_prize_ac_r --save_folder netflix_prize_ac_r
 
 
 ## Descriptions (not important)
-- \data: modelwise/dataset-wise parameters and raw/processed data
-- \main_network: RL models
-- \running: Control train/test
-- \simulator: RL simulators
-- \trained_models: trained models, and its performances(losses/rewards/hit_rates)
+- \data: modelwise/dataset-wise parameters and raw/processed data  
+- \main_network: RL models  
+- \running: Control train/test  
+- \simulator: RL simulators  
+- \trained_models: trained models, and its performances(losses/rewards/hit_rates)  
