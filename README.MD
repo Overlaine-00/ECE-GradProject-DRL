@@ -52,5 +52,6 @@ python main.py --load_folder netflix_prize_ac_r --save_folder netflix_prize_ac_r
 ## Descriptions (not important)
 - \data: modelwise/dataset-wise parameters and raw/processed data
 - \main_network: RL models
+- \running: Control train/test
 - \simulator: RL simulators
 - \trained_models: trained models, and its performances(losses/rewards/hit_rates)
